@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Nếu người dùng gõ home.php, nó sẽ âm thầm chạy file trong pages/home.php
+RewriteRule ^home\.php$ pages/home.php [L]
+
+# Tương tự cho trang chi tiết
+RewriteRule ^detail\.php$ pages/detail.php [L]
